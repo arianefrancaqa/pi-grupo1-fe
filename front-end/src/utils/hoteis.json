@@ -1,0 +1,92 @@
+{
+  "hoteis": [
+    {
+      "image": "https://casaeconstrucao.org/wp-content/uploads/2016/04/casa-na-arvore-23.jpg",
+      "typeAccomodation": "Hotel",
+      "quantityStars": "5",
+      "name": "Hermitage Hotel",
+      "numberAvaliation": "8",
+      "descriptionAvaliation": "Muito Bom",
+      "distanceDescription": "A 940 m do centro -",
+      "descriptionAccomodation": "No coração de San Telmo, desfrute de uma pousada inspirada nas paixões de Buenos Aires. Com 2 piscinas impressionantes, uma no terraço e outra ao ar livre; quartos privados",
+      "titleButton": "Ver Mais"
+    },
+    {
+      "image": "https://www.hotelparaiso.com.br/uploads/fotos_acomodacoes/10_10_2017_achggejm.jpg",
+      "typeAccomodation": "Pousada",
+      "quantityStars": "4",
+      "name": "Pousada das Flores",
+      "numberAvaliation": "9",
+      "descriptionAvaliation": "Excelente",
+      "distanceDescription": "A 500 m da praia -",
+      "descriptionAccomodation": "Uma charmosa pousada com jardim e piscina, ideal para relaxar e aproveitar o clima tropical. Quartos aconchegantes com vista para o mar",
+      "titleButton": "Ver Mais"
+    },
+    {
+      "image": "https://i.pinimg.com/originals/51/77/7b/51777bc6f62e408aab2348096f533889.jpg",
+      "typeAccomodation": "Resort",
+      "quantityStars": "5",
+      "name": "Paradise Resort",
+      "numberAvaliation": "7",
+      "descriptionAvaliation": "Muito Bom",
+      "distanceDescription": "A 10 km do centro -",
+      "descriptionAccomodation": "Um resort de luxo com piscinas, spa e diversas atividades para todas as idades. Quartos espaçosos e bem equipados, com vista para o mar",
+      "titleButton": "Ver Mais"
+    },
+    {
+      "image": "https://th.bing.com/th/id/R.76d9d67dffbc5f78dcf2e0a287d8d4d0?rik=tpptPYHM2AXg%2fQ&pid=ImgRaw&r=0",
+      "typeAccomodation": "Chalé",
+      "quantityStars": "3",
+      "name": "Chalé da Montanha",
+      "numberAvaliation": "8",
+      "descriptionAvaliation": "Ótimo",
+      "distanceDescription": "Em meio à natureza -",
+      "descriptionAccomodation": "Aconchegantes chalés em uma região montanhosa, perfeito para quem busca tranquilidade e contato com a natureza. Café da manhã incluso",
+      "titleButton": "Ver Mais"
+    },
+    {
+      "image": "https://www.plazahoteis.com.br/blumenau/wp-content/uploads/sites/13/2018/07/apto-luxo-final17-06.jpg",
+      "typeAccomodation": "Hostel",
+      "quantityStars": "2",
+      "name": "Backpacker Hostel",
+      "numberAvaliation": "6",
+      "descriptionAvaliation": "Bom",
+      "distanceDescription": "No centro da cidade -",
+      "descriptionAccomodation": "Hostel animado e econômico, ideal para viajantes independentes. Quartos compartilhados e áreas sociais para conhecer outros viajantes",
+      "titleButton": "Ver Mais"
+    },
+    {
+      "image": "https://th.bing.com/th/id/R.5ce3f84c9d870a75213fc2e35a158629?rik=X9EoWgR8CY7HwA&riu=http%3a%2f%2fwww.grandpashotel.com%2fwp-content%2fuploads%2f2015%2f06%2fCaptura-de-Pantalla-2019-08-01-a-las-16.26.43.png&ehk=or4Za9tQbwmcCa7NQU4iKiZYKnqk6LBdq50h2JRzA50%3d&risl=&pid=ImgRaw&r=0",
+      "typeAccomodation": "Cabana",
+      "quantityStars": "4",
+      "name": "Cabana da Floresta",
+      "numberAvaliation": "9",
+      "descriptionAvaliation": "Excelente",
+      "distanceDescription": "Em meio à floresta -",
+      "descriptionAccomodation": "Cabanas charmosas e privativas em uma área cercada por floresta. Ideal para casais em busca de privacidade e romance",
+      "titleButton": "Ver Mais"
+    },
+    {
+      "image": "https://www.plazahoteis.com.br/bahia/wp-content/uploads/sites/16/2018/08/bahia-plaza-hotel-suite-325-tour-virtual-brasil-2011.jpg",
+      "typeAccomodation": "Apartamento",
+      "quantityStars": "4",
+      "name": "Apart Hotel",
+      "numberAvaliation": "7",
+      "descriptionAvaliation": "Muito Bom",
+      "distanceDescription": "No centro da cidade -",
+      "descriptionAccomodation": "Apartamentos confortáveis com serviço de hotelaria. Ideal para quem busca a comodidade de um hotel com a independência de um apartamento",
+      "titleButton": "Ver Mais"
+    },
+    {
+      "image": "https://images.arquidicas.com.br/wp-content/uploads/2015/09/01193352/fotos-de-casa-de-campo.png",
+      "typeAccomodation": "Casa de Campo",
+      "quantityStars": "5",
+      "name": "Casa da Serra",
+      "numberAvaliation": "8",
+      "descriptionAvaliation": "Muito Bom",
+      "distanceDescription": "Em meio às montanhas -",
+      "descriptionAccomodation": "Uma elegante casa de campo com piscina e vista panorâmica das montanhas. Quartos espaçosos e uma atmosfera acolhedora",
+      "titleButton": "Ver Mais"
+    }
+  ]
+}

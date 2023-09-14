@@ -1,0 +1,103 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sectionCalendar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.h3data {
+  font-size: 2rem;
+  color: #fdfdfd;
+  margin-bottom: 1rem;
+}
+
+.calendar {
+  background-color: white;
+}
+
+.dataEscolhida {
+  color: white;
+  text-align: justify;
+  margin-right: 2rem;
+}
+
+.buttonReserva {
+  background: #ed6686;
+  margin-top: 1rem;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  color: #fdfdfd;
+  margin-right: 2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: transform 0.5s;
+}
+
+.buttonReserva:hover {
+  background: #c2185b;
+}
+
+
+.sectionCalendarReserva{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.h3dataChegada{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .h3data {
+    text-align: center;
+  }
+
+  .dataEscolhida {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 650px) {
+  .calendar {
+    max-width: 590px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .section {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .dataEscolhida {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .section {
+    margin-left: 0;
+  }
+}

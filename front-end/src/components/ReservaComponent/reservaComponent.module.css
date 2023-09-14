@@ -1,0 +1,262 @@
+.containerReserva {
+  max-width: 100%;
+  background: rgb(131, 133, 163);
+  gap: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.formReserva {
+  max-height: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(131, 133, 163);
+  gap: 20px;
+}
+
+.reservaCol2 {
+  min-width: 50%;
+  align-items: flex-start;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputContainer input {
+  height: 3rem;
+}
+
+.inputContainer label {
+  color: white;
+}
+.shadowDados {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.inputNomeEmail {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageView {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.imageView img {
+  width: 827px;
+  height: 382px;
+  border-radius: 4px;
+  object-fit: fill;
+}
+
+.imageViewDetalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.imageViewDetalhes h2 {
+  color: white;
+}
+
+.imageViewDetalhes p {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: white;
+}
+
+.detalheDaReserva {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 4rem;
+}
+
+.reserva {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.horarioReserva {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.horarioReserva p {
+  color: #c2185b;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.messageContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.horarioReserva .message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.horarioReserva label {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.horarioReserva select {
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+.h3Dados {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.h2Dados {
+  margin-left: 5rem;
+  font-size: 2rem;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.checkInOut {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.checkInOut label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.checkInOut input {
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.4rem;
+}
+
+.warning p {
+  font-weight: bold;
+  font-weight: 1.3rem;
+  color: #c2185b;
+}
+
+.buttonReserva {
+  background: #c2185b;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 80%;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  transition: background 0.5s;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.buttonReserva:hover {
+  background: #8e0b3f;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .formReserva {
+    flex-direction: column;
+    max-height: 100%;
+  }
+
+  .imageView img {
+    width: 100%;
+    height: 80%;
+    border-radius: 4px;
+    object-fit: fill;
+  }
+
+  .imageViewDetalhes {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+  }
+
+  .h2Dados {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .formReserva {
+    flex-direction: column;
+    max-height: 100%;
+  }
+
+  .imageView img {
+    width: 100%;
+    height: 80%;
+    border-radius: 4px;
+    object-fit: fill;
+  }
+
+  .imageViewDetalhes {
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .h2Dados {
+    font-size: 3rem;
+  }
+}

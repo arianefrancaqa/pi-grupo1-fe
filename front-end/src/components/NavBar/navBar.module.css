@@ -1,0 +1,77 @@
+.navbar {
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 6%;
+  max-height: 32%;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.escrita {
+  max-width: 15%;
+  max-height: 32%;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  color: #fdfdfd;
+  margin-right: 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.header {
+  width: 100%;
+}
+._headerList {
+  justify-content: space-between;
+}
+
+.navItems {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navItems a button {
+  font-size: 1.4rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+  padding: 10px 10px;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px; /* Adjust the margin as needed */
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+}
