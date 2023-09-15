@@ -9,7 +9,6 @@ import HeaderLocation from "../components/DetailsProduct/HeaderLocation/HeaderLo
 import { StyledEngineProvider } from "@mui/material/styles";
 import CalendarB from "../components/DetailsProduct/CalendarB";
 import ImageView from "../components/DetailsProduct/ImageView";
-import ShareProduct from "../components/DetailsProduct/ShareProduct";
 
 const Details = () => {
 
