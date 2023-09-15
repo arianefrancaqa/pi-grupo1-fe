@@ -100,7 +100,9 @@ function ResponsiveAppBar() {
                             </Button>
                         ))} */}
                     </Box>
-
+                    <Link to={`/cadastro-produto`}>
+                        <button style={{ border:'none', color: "#FFFFFF", background: "transparent", fontSize: '1.2rem', marginRight:'10px'}}>Administrar</button>
+                    </Link>
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu}

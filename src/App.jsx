@@ -7,6 +7,7 @@ import LoginForm from './components/LoginForm/index';
 import Cadastro from './components/Cadastro/index';
 import Details from './Pages/Details';
 import Reserva from './Pages/Reserva';
+import Products from './Pages/Products';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/detalhes_produto/:id" element={<Details />} />
           <Route path="/reserva/:id" element={<Reserva />} />
+          <Route path="/cadastro-produto" element={<Products />} />
 
         </Routes>
       </BrowserRouter>
