@@ -4,7 +4,10 @@ import { useParams } from "react-router-dom";
 import axios from 'axios';
 import { AuthContext } from '../../context/AuthContext';
 import Calendar from '../DetailsProduct/Calendar';
+import ImageView from '../DetailsProduct/ImageView';
 import styles from '../ReservaComponent/reservaComponent.module.css'
+import ShareProduct from '../DetailsProduct/ShareProduct';
+import SearchCard from '../SearchCard';
 import apiBaseUrl from '../../../api';
 
 
